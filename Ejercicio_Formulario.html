@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Formulario</title>
+    </head>
+    <body>
+        <form>
+            <h1>Mi formulario de Registro</h1>
+            <label>Nombre:<input type="text" name="nombre"></label>
+            <br><br>
+            <label>Apellido:<input type="text" name="apellido"></label>
+            <br><br>
+            <label>Email<input type="text" name="email"></label>
+            <br><br>
+            <label>Contraseña:<input type="password" name="password"></label>
+            <br><br>
+            <label>Confirmar:<input type="password" name="confirm"></label>
+            <br><br>
+            <label>Cumpleaños:<input type="date" name="cumpleaños"></label>
+            <br><br>
+            
+            <br>
+            <input type="radio" id="hombre" name="genero">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="genero"
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="otro" name="genero">
+            <label for="otro">Otro</label>
+
+            <br>
+            <p>Una breve descripción de ti:</p>
+
+            <textarea name="descripcion"></textarea>
+            <br><br>
+
+            <label>Lenguaje favorito</label>
+            
+            <select name="lenguajeFav">
+                <option value="js">JavaScript</option>
+                <option value="py">Python</option>
+                <option value="java">Java</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="cs">C#</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        
+    </body>
+</html>
